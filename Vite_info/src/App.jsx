@@ -1,5 +1,6 @@
 import "./App.css";
 import Button from "./components/Button";
+import Profile from "./components/Profile";
 
 /**
  * Renders the main application component displaying a set of buttons.
@@ -8,11 +9,10 @@ import Button from "./components/Button";
 function App() {
   return (
     <>
-      <div>
-        <Button label="Default Button" variant="default" />{' '}
-        <Button label="Primary Button" variant="primary" />{' '}
-        <Button label="Secondary Button" variant="secondary" />{' '}
-      </div>
+      <Profile /><br/><br/>
+      <Button label="Primary" variant="primary" />{' '}
+      <Button label="Secondary" variant="secondary" />{' '}
+      <Button label="Default" variant="default" />{' '}
     </>
   );
 }
