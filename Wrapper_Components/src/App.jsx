@@ -21,6 +21,11 @@ function App() {
         <p>This is the content of the card 3.</p> 
         <p>More content can go here.</p>{" "}
       </CardWrapper>
+      <CardWrapper title="Card Title 4" footer="Card Footer 4">
+        {" "}
+        <p>This is the content of the card 4.</p> 
+        <p>More content can go here.</p>{" "}
+      </CardWrapper>
     </>
   );
 }
